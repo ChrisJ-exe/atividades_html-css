@@ -1,14 +1,11 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: ;
     background-image: url(https://i.pinimg.com/736x/19/84/de/1984de1331d68f6d2595459a785afef0.jpg);
-    background-size: ;
     margin: 0;
     padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: ;
 }
 
 .banner {
@@ -21,7 +18,6 @@ body {
 }
 
 .character {
-    width: ;
     height: 200px;
     border-radius: 5%;
     object-fit: cover;
