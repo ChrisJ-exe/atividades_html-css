@@ -1,0 +1,134 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(252, 233, 205);
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principal {
+    background-color: rgb(255, 123, 108);
+    position: relative;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.seila h1 {
+    color: rgb(87, 35, 35);
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 4%;
+}
+
+.menu-principal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-principal li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu-principal a {
+    color: rgb(87, 35, 35);
+    margin-left: 6px;
+    text-decoration: none;
+    padding: 6px 15px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu-principal a i {
+    margin-left: 9px;
+    font-size: 14px;
+}
+
+.menu-principal a:hover {
+    background-color: none;
+    color: rgb(109, 67, 62);
+}
+
+.menu-pesquisa {
+    color: blanchedalmond;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.menu-pesquisa:hover {
+    background-color: none;
+    color: rgb(109, 67, 62);
+}
+
+.menu-login {
+    color: blanchedalmond;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.menu-login:hover {
+    background-color: none;
+    color: rgb(109, 67, 62);
+}
+
+.menu-pesquisa .tooltip-text{
+    visibility: hidden;
+    width: 60px;
+    background-color: rgb(85, 53, 53);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-20%);
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 1;
+}
+
+.menu-pesquisa:hover .tooltip-text{
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu-login .tooltip-text {
+    visibility: hidden;
+    width: 60px;
+    background-color: rgb(85, 53, 53);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-80%);
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 1;
+}
+
+.menu-login:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+
+}
