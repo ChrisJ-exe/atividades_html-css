@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card-login {
+     background: url(https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNjhkODE1ZjQzZWI0ODE5MWFlZjk2NjE2OGUwNThmMTU6ZmlsZV8wMDAwMDAwMGMxODQ2MjMwYmU5NDU2MGZjM2I5ZWI0NCIsInRzIjoiNDg4NjA4IiwicCI6InB5aSIsImNpZCI6IjEiLCJzaWciOiIzM2ZmNzEzZjAyYjRkM2QyOGI3OTdiOWU0ZGIxYWY2ZWE3ZGM3MmY0MjYxZTA2Yzg4YjFjMzUyNjVmMGY2ZThmIiwidiI6IjAiLCJnaXptb19pZCI6bnVsbCwiY3AiOm51bGwsIm1hIjpudWxsfQ==) center/cover no-repeat;
+    border-radius: 1px;
+    box-shadow: 0 4px 12px rgb(36, 36, 36);
+    padding: 40px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.card-login h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-shadow: 0 1px 1px black;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.form-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.form-login span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.botao-acao {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botao-login-principal {
+    background-color: white;
+    color: rgb(54, 54, 109);
+    font-weight: bold;
+    margin-top: 20px;
+    max-width: 200px;
+     box-shadow: 0 2px 0.8px black;
+}
+
+#botao-secundario {
+    background-color: rgb(58, 58, 179);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    max-width: 200px;
+    box-shadow: 0 2px 0.8px black;
+
+}
+
+#botao-login-principal:hover {
+    background-color: rgb(177, 176, 176);
+}
+
+#botao-secundario:hover {
+    background-color: rgb(33, 46, 90);
+}
+
